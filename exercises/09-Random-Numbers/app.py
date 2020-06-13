@@ -1,8 +1,9 @@
 import random
+import math
 
 def get_randomInt():
   # CHANGE ONLY THIS LINE BELOW
-	random_number = random.random()
+	random_number = math.ceil(random.random()*10)
 	return random_number
 
 
